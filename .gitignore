@@ -39,6 +39,7 @@ instance/
 # Documentation / project notes
 *.md
 *.markdown
+!README.md
 
 # Operating system files
 .DS_Store
