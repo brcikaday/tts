@@ -1,0 +1,929 @@
+{
+  "_meta": {
+    "description": "Static protect list for GhanaSpeak preprocessing layer. Words listed here are wrapped in a placeholder before translation and restored as plain English (not phonetic) after translation, based on validated testing showing Khaya TTS pronounces untouched English technical terms correctly.",
+    "total_words": 184,
+    "confirmed_khaya_failures_count": 20
+  },
+  "words": {
+    "mitochondria": {
+      "source": "domain_dictionary",
+      "domain": "biology",
+      "confirmed_khaya_failure": false
+    },
+    "photosynthesis": {
+      "source": "domain_dictionary",
+      "domain": "biology",
+      "confirmed_khaya_failure": false
+    },
+    "chromosome": {
+      "source": "domain_dictionary",
+      "domain": "biology",
+      "confirmed_khaya_failure": false
+    },
+    "nucleus": {
+      "source": "domain_dictionary",
+      "domain": "biology",
+      "confirmed_khaya_failure": false
+    },
+    "cytoplasm": {
+      "source": "domain_dictionary",
+      "domain": "biology",
+      "confirmed_khaya_failure": false
+    },
+    "osmosis": {
+      "source": "domain_dictionary",
+      "domain": "biology",
+      "confirmed_khaya_failure": false
+    },
+    "enzyme": {
+      "source": "domain_dictionary",
+      "domain": "biology",
+      "confirmed_khaya_failure": false
+    },
+    "protein": {
+      "source": "domain_dictionary",
+      "domain": "biology",
+      "confirmed_khaya_failure": false
+    },
+    "ribosome": {
+      "source": "domain_dictionary",
+      "domain": "biology",
+      "confirmed_khaya_failure": false
+    },
+    "chloroplast": {
+      "source": "domain_dictionary",
+      "domain": "biology",
+      "confirmed_khaya_failure": false
+    },
+    "neuron": {
+      "source": "domain_dictionary",
+      "domain": "biology",
+      "confirmed_khaya_failure": true
+    },
+    "genome": {
+      "source": "domain_dictionary",
+      "domain": "biology",
+      "confirmed_khaya_failure": false
+    },
+    "carbohydrate": {
+      "source": "domain_dictionary",
+      "domain": "biology",
+      "confirmed_khaya_failure": false
+    },
+    "lipid": {
+      "source": "domain_dictionary",
+      "domain": "biology",
+      "confirmed_khaya_failure": false
+    },
+    "membrane": {
+      "source": "domain_dictionary",
+      "domain": "biology",
+      "confirmed_khaya_failure": false
+    },
+    "diffusion": {
+      "source": "domain_dictionary",
+      "domain": "biology",
+      "confirmed_khaya_failure": false
+    },
+    "respiration": {
+      "source": "domain_dictionary",
+      "domain": "biology",
+      "confirmed_khaya_failure": false
+    },
+    "fermentation": {
+      "source": "domain_dictionary",
+      "domain": "biology",
+      "confirmed_khaya_failure": false
+    },
+    "ecosystem": {
+      "source": "domain_dictionary",
+      "domain": "biology",
+      "confirmed_khaya_failure": false
+    },
+    "biodiversity": {
+      "source": "domain_dictionary",
+      "domain": "biology",
+      "confirmed_khaya_failure": true
+    },
+    "taxonomy": {
+      "source": "domain_dictionary",
+      "domain": "biology",
+      "confirmed_khaya_failure": true
+    },
+    "evolution": {
+      "source": "domain_dictionary",
+      "domain": "biology",
+      "confirmed_khaya_failure": true
+    },
+    "mutation": {
+      "source": "domain_dictionary",
+      "domain": "biology",
+      "confirmed_khaya_failure": true
+    },
+    "allele": {
+      "source": "domain_dictionary",
+      "domain": "biology",
+      "confirmed_khaya_failure": true
+    },
+    "phenotype": {
+      "source": "domain_dictionary",
+      "domain": "biology",
+      "confirmed_khaya_failure": true
+    },
+    "genotype": {
+      "source": "domain_dictionary",
+      "domain": "biology",
+      "confirmed_khaya_failure": true
+    },
+    "antibody": {
+      "source": "domain_dictionary",
+      "domain": "biology",
+      "confirmed_khaya_failure": true
+    },
+    "pathogen": {
+      "source": "domain_dictionary",
+      "domain": "biology",
+      "confirmed_khaya_failure": false
+    },
+    "bacteria": {
+      "source": "domain_dictionary",
+      "domain": "biology",
+      "confirmed_khaya_failure": true
+    },
+    "organism": {
+      "source": "domain_dictionary",
+      "domain": "biology",
+      "confirmed_khaya_failure": false
+    },
+    "antibiotics": {
+      "source": "domain_dictionary",
+      "domain": "medicine",
+      "confirmed_khaya_failure": false
+    },
+    "vaccination": {
+      "source": "domain_dictionary",
+      "domain": "medicine",
+      "confirmed_khaya_failure": false
+    },
+    "cardiology": {
+      "source": "domain_dictionary",
+      "domain": "medicine",
+      "confirmed_khaya_failure": false
+    },
+    "pharmacology": {
+      "source": "domain_dictionary",
+      "domain": "medicine",
+      "confirmed_khaya_failure": false
+    },
+    "diagnosis": {
+      "source": "domain_dictionary",
+      "domain": "medicine",
+      "confirmed_khaya_failure": false
+    },
+    "prescription": {
+      "source": "domain_dictionary",
+      "domain": "medicine",
+      "confirmed_khaya_failure": false
+    },
+    "syndrome": {
+      "source": "domain_dictionary",
+      "domain": "medicine",
+      "confirmed_khaya_failure": false
+    },
+    "symptom": {
+      "source": "domain_dictionary",
+      "domain": "medicine",
+      "confirmed_khaya_failure": false
+    },
+    "infection": {
+      "source": "domain_dictionary",
+      "domain": "medicine",
+      "confirmed_khaya_failure": false
+    },
+    "inflammation": {
+      "source": "domain_dictionary",
+      "domain": "medicine",
+      "confirmed_khaya_failure": false
+    },
+    "anesthesia": {
+      "source": "domain_dictionary",
+      "domain": "medicine",
+      "confirmed_khaya_failure": false
+    },
+    "surgery": {
+      "source": "domain_dictionary",
+      "domain": "medicine",
+      "confirmed_khaya_failure": false
+    },
+    "therapy": {
+      "source": "domain_dictionary",
+      "domain": "medicine",
+      "confirmed_khaya_failure": false
+    },
+    "pathology": {
+      "source": "domain_dictionary",
+      "domain": "medicine",
+      "confirmed_khaya_failure": false
+    },
+    "radiology": {
+      "source": "domain_dictionary",
+      "domain": "medicine",
+      "confirmed_khaya_failure": false
+    },
+    "oncology": {
+      "source": "domain_dictionary",
+      "domain": "medicine",
+      "confirmed_khaya_failure": false
+    },
+    "neurology": {
+      "source": "domain_dictionary",
+      "domain": "medicine",
+      "confirmed_khaya_failure": false
+    },
+    "dermatology": {
+      "source": "domain_dictionary",
+      "domain": "medicine",
+      "confirmed_khaya_failure": false
+    },
+    "immunology": {
+      "source": "domain_dictionary",
+      "domain": "medicine",
+      "confirmed_khaya_failure": false
+    },
+    "epidemic": {
+      "source": "domain_dictionary",
+      "domain": "medicine",
+      "confirmed_khaya_failure": false
+    },
+    "molecule": {
+      "source": "domain_dictionary",
+      "domain": "chemistry",
+      "confirmed_khaya_failure": true
+    },
+    "atom": {
+      "source": "domain_dictionary",
+      "domain": "chemistry",
+      "confirmed_khaya_failure": false
+    },
+    "electron": {
+      "source": "domain_dictionary",
+      "domain": "chemistry",
+      "confirmed_khaya_failure": true
+    },
+    "proton": {
+      "source": "domain_dictionary",
+      "domain": "chemistry",
+      "confirmed_khaya_failure": false
+    },
+    "neutron": {
+      "source": "domain_dictionary",
+      "domain": "chemistry",
+      "confirmed_khaya_failure": false
+    },
+    "isotope": {
+      "source": "domain_dictionary",
+      "domain": "chemistry",
+      "confirmed_khaya_failure": false
+    },
+    "catalyst": {
+      "source": "domain_dictionary",
+      "domain": "chemistry",
+      "confirmed_khaya_failure": true
+    },
+    "compound": {
+      "source": "domain_dictionary",
+      "domain": "chemistry",
+      "confirmed_khaya_failure": false
+    },
+    "solution": {
+      "source": "domain_dictionary",
+      "domain": "chemistry",
+      "confirmed_khaya_failure": false
+    },
+    "acid": {
+      "source": "domain_dictionary",
+      "domain": "chemistry",
+      "confirmed_khaya_failure": false
+    },
+    "alkaline": {
+      "source": "domain_dictionary",
+      "domain": "chemistry",
+      "confirmed_khaya_failure": false
+    },
+    "oxidation": {
+      "source": "domain_dictionary",
+      "domain": "chemistry",
+      "confirmed_khaya_failure": false
+    },
+    "reduction": {
+      "source": "domain_dictionary",
+      "domain": "chemistry",
+      "confirmed_khaya_failure": false
+    },
+    "density": {
+      "source": "domain_dictionary",
+      "domain": "chemistry",
+      "confirmed_khaya_failure": false
+    },
+    "viscosity": {
+      "source": "domain_dictionary",
+      "domain": "chemistry",
+      "confirmed_khaya_failure": false
+    },
+    "entropy": {
+      "source": "domain_dictionary",
+      "domain": "chemistry",
+      "confirmed_khaya_failure": false
+    },
+    "reagent": {
+      "source": "domain_dictionary",
+      "domain": "chemistry",
+      "confirmed_khaya_failure": false
+    },
+    "valence": {
+      "source": "domain_dictionary",
+      "domain": "chemistry",
+      "confirmed_khaya_failure": false
+    },
+    "crystalline": {
+      "source": "domain_dictionary",
+      "domain": "chemistry",
+      "confirmed_khaya_failure": false
+    },
+    "molecular": {
+      "source": "domain_dictionary",
+      "domain": "chemistry",
+      "confirmed_khaya_failure": false
+    },
+    "velocity": {
+      "source": "domain_dictionary",
+      "domain": "physics",
+      "confirmed_khaya_failure": false
+    },
+    "acceleration": {
+      "source": "domain_dictionary",
+      "domain": "physics",
+      "confirmed_khaya_failure": false
+    },
+    "thermodynamics": {
+      "source": "domain_dictionary",
+      "domain": "physics",
+      "confirmed_khaya_failure": false
+    },
+    "electromagnetic": {
+      "source": "domain_dictionary",
+      "domain": "physics",
+      "confirmed_khaya_failure": true
+    },
+    "quantum": {
+      "source": "domain_dictionary",
+      "domain": "physics",
+      "confirmed_khaya_failure": false
+    },
+    "radioactive": {
+      "source": "domain_dictionary",
+      "domain": "physics",
+      "confirmed_khaya_failure": false
+    },
+    "gravitational": {
+      "source": "domain_dictionary",
+      "domain": "physics",
+      "confirmed_khaya_failure": false
+    },
+    "frequency": {
+      "source": "domain_dictionary",
+      "domain": "physics",
+      "confirmed_khaya_failure": false
+    },
+    "wavelength": {
+      "source": "domain_dictionary",
+      "domain": "physics",
+      "confirmed_khaya_failure": false
+    },
+    "voltage": {
+      "source": "domain_dictionary",
+      "domain": "physics",
+      "confirmed_khaya_failure": false
+    },
+    "resistance": {
+      "source": "domain_dictionary",
+      "domain": "physics",
+      "confirmed_khaya_failure": false
+    },
+    "momentum": {
+      "source": "domain_dictionary",
+      "domain": "physics",
+      "confirmed_khaya_failure": false
+    },
+    "friction": {
+      "source": "domain_dictionary",
+      "domain": "physics",
+      "confirmed_khaya_failure": false
+    },
+    "pressure": {
+      "source": "domain_dictionary",
+      "domain": "physics",
+      "confirmed_khaya_failure": false
+    },
+    "kinetic": {
+      "source": "domain_dictionary",
+      "domain": "physics",
+      "confirmed_khaya_failure": false
+    },
+    "potential": {
+      "source": "domain_dictionary",
+      "domain": "physics",
+      "confirmed_khaya_failure": false
+    },
+    "magnetic": {
+      "source": "domain_dictionary",
+      "domain": "physics",
+      "confirmed_khaya_failure": false
+    },
+    "nuclear": {
+      "source": "domain_dictionary",
+      "domain": "physics",
+      "confirmed_khaya_failure": false
+    },
+    "particle": {
+      "source": "domain_dictionary",
+      "domain": "physics",
+      "confirmed_khaya_failure": false
+    },
+    "spectrum": {
+      "source": "domain_dictionary",
+      "domain": "physics",
+      "confirmed_khaya_failure": false
+    },
+    "algorithm": {
+      "source": "domain_dictionary",
+      "domain": "mathematics",
+      "confirmed_khaya_failure": false
+    },
+    "polynomial": {
+      "source": "domain_dictionary",
+      "domain": "mathematics",
+      "confirmed_khaya_failure": false
+    },
+    "derivative": {
+      "source": "domain_dictionary",
+      "domain": "mathematics",
+      "confirmed_khaya_failure": false
+    },
+    "theorem": {
+      "source": "domain_dictionary",
+      "domain": "mathematics",
+      "confirmed_khaya_failure": false
+    },
+    "denominator": {
+      "source": "domain_dictionary",
+      "domain": "mathematics",
+      "confirmed_khaya_failure": true
+    },
+    "coefficient": {
+      "source": "domain_dictionary",
+      "domain": "mathematics",
+      "confirmed_khaya_failure": false
+    },
+    "hypothesis": {
+      "source": "domain_dictionary",
+      "domain": "mathematics",
+      "confirmed_khaya_failure": false
+    },
+    "probability": {
+      "source": "domain_dictionary",
+      "domain": "mathematics",
+      "confirmed_khaya_failure": false
+    },
+    "equation": {
+      "source": "domain_dictionary",
+      "domain": "mathematics",
+      "confirmed_khaya_failure": false
+    },
+    "variable": {
+      "source": "domain_dictionary",
+      "domain": "mathematics",
+      "confirmed_khaya_failure": false
+    },
+    "integer": {
+      "source": "domain_dictionary",
+      "domain": "mathematics",
+      "confirmed_khaya_failure": false
+    },
+    "exponent": {
+      "source": "domain_dictionary",
+      "domain": "mathematics",
+      "confirmed_khaya_failure": false
+    },
+    "logarithm": {
+      "source": "domain_dictionary",
+      "domain": "mathematics",
+      "confirmed_khaya_failure": false
+    },
+    "geometry": {
+      "source": "domain_dictionary",
+      "domain": "mathematics",
+      "confirmed_khaya_failure": false
+    },
+    "trigonometry": {
+      "source": "domain_dictionary",
+      "domain": "mathematics",
+      "confirmed_khaya_failure": false
+    },
+    "database": {
+      "source": "domain_dictionary",
+      "domain": "computer_science",
+      "confirmed_khaya_failure": false
+    },
+    "compiler": {
+      "source": "domain_dictionary",
+      "domain": "computer_science",
+      "confirmed_khaya_failure": false
+    },
+    "recursion": {
+      "source": "domain_dictionary",
+      "domain": "computer_science",
+      "confirmed_khaya_failure": false
+    },
+    "bandwidth": {
+      "source": "domain_dictionary",
+      "domain": "computer_science",
+      "confirmed_khaya_failure": false
+    },
+    "encryption": {
+      "source": "domain_dictionary",
+      "domain": "computer_science",
+      "confirmed_khaya_failure": false
+    },
+    "syntax": {
+      "source": "domain_dictionary",
+      "domain": "computer_science",
+      "confirmed_khaya_failure": false
+    },
+    "semiconductor": {
+      "source": "domain_dictionary",
+      "domain": "computer_science",
+      "confirmed_khaya_failure": false
+    },
+    "transistor": {
+      "source": "domain_dictionary",
+      "domain": "computer_science",
+      "confirmed_khaya_failure": false
+    },
+    "microprocessor": {
+      "source": "domain_dictionary",
+      "domain": "computer_science",
+      "confirmed_khaya_failure": false
+    },
+    "binary": {
+      "source": "domain_dictionary",
+      "domain": "computer_science",
+      "confirmed_khaya_failure": false
+    },
+    "hexadecimal": {
+      "source": "domain_dictionary",
+      "domain": "computer_science",
+      "confirmed_khaya_failure": false
+    },
+    "boolean": {
+      "source": "domain_dictionary",
+      "domain": "computer_science",
+      "confirmed_khaya_failure": true
+    },
+    "float": {
+      "source": "domain_dictionary",
+      "domain": "computer_science",
+      "confirmed_khaya_failure": false
+    },
+    "array": {
+      "source": "domain_dictionary",
+      "domain": "computer_science",
+      "confirmed_khaya_failure": false
+    },
+    "pointer": {
+      "source": "domain_dictionary",
+      "domain": "computer_science",
+      "confirmed_khaya_failure": false
+    },
+    "inheritance": {
+      "source": "domain_dictionary",
+      "domain": "computer_science",
+      "confirmed_khaya_failure": false
+    },
+    "polymorphism": {
+      "source": "domain_dictionary",
+      "domain": "computer_science",
+      "confirmed_khaya_failure": false
+    },
+    "debugging": {
+      "source": "domain_dictionary",
+      "domain": "computer_science",
+      "confirmed_khaya_failure": false
+    },
+    "repository": {
+      "source": "domain_dictionary",
+      "domain": "computer_science",
+      "confirmed_khaya_failure": false
+    },
+    "framework": {
+      "source": "domain_dictionary",
+      "domain": "computer_science",
+      "confirmed_khaya_failure": false
+    },
+    "latency": {
+      "source": "domain_dictionary",
+      "domain": "computer_science",
+      "confirmed_khaya_failure": false
+    },
+    "throughput": {
+      "source": "domain_dictionary",
+      "domain": "computer_science",
+      "confirmed_khaya_failure": false
+    },
+    "firewall": {
+      "source": "domain_dictionary",
+      "domain": "computer_science",
+      "confirmed_khaya_failure": false
+    },
+    "router": {
+      "source": "domain_dictionary",
+      "domain": "computer_science",
+      "confirmed_khaya_failure": false
+    },
+    "protocol": {
+      "source": "domain_dictionary",
+      "domain": "computer_science",
+      "confirmed_khaya_failure": false
+    },
+    "satellite": {
+      "source": "domain_dictionary",
+      "domain": "astronomy",
+      "confirmed_khaya_failure": false
+    },
+    "telescope": {
+      "source": "domain_dictionary",
+      "domain": "astronomy",
+      "confirmed_khaya_failure": false
+    },
+    "orbit": {
+      "source": "domain_dictionary",
+      "domain": "astronomy",
+      "confirmed_khaya_failure": false
+    },
+    "galaxy": {
+      "source": "domain_dictionary",
+      "domain": "astronomy",
+      "confirmed_khaya_failure": false
+    },
+    "asteroid": {
+      "source": "domain_dictionary",
+      "domain": "astronomy",
+      "confirmed_khaya_failure": false
+    },
+    "meteor": {
+      "source": "domain_dictionary",
+      "domain": "astronomy",
+      "confirmed_khaya_failure": false
+    },
+    "comet": {
+      "source": "domain_dictionary",
+      "domain": "astronomy",
+      "confirmed_khaya_failure": false
+    },
+    "planet": {
+      "source": "domain_dictionary",
+      "domain": "astronomy",
+      "confirmed_khaya_failure": false
+    },
+    "gravity": {
+      "source": "domain_dictionary",
+      "domain": "astronomy",
+      "confirmed_khaya_failure": false
+    },
+    "universe": {
+      "source": "domain_dictionary",
+      "domain": "astronomy",
+      "confirmed_khaya_failure": false
+    },
+    "circuit": {
+      "source": "domain_dictionary",
+      "domain": "engineering",
+      "confirmed_khaya_failure": false
+    },
+    "resistor": {
+      "source": "domain_dictionary",
+      "domain": "engineering",
+      "confirmed_khaya_failure": false
+    },
+    "capacitor": {
+      "source": "domain_dictionary",
+      "domain": "engineering",
+      "confirmed_khaya_failure": false
+    },
+    "conductor": {
+      "source": "domain_dictionary",
+      "domain": "engineering",
+      "confirmed_khaya_failure": false
+    },
+    "insulator": {
+      "source": "domain_dictionary",
+      "domain": "engineering",
+      "confirmed_khaya_failure": false
+    },
+    "generator": {
+      "source": "domain_dictionary",
+      "domain": "engineering",
+      "confirmed_khaya_failure": false
+    },
+    "turbine": {
+      "source": "domain_dictionary",
+      "domain": "engineering",
+      "confirmed_khaya_failure": false
+    },
+    "hydraulic": {
+      "source": "domain_dictionary",
+      "domain": "engineering",
+      "confirmed_khaya_failure": false
+    },
+    "mechanical": {
+      "source": "domain_dictionary",
+      "domain": "engineering",
+      "confirmed_khaya_failure": false
+    },
+    "prototype": {
+      "source": "domain_dictionary",
+      "domain": "engineering",
+      "confirmed_khaya_failure": false
+    },
+    "cell": {
+      "source": "ambiguous_common_word",
+      "domain": "ambiguous",
+      "confirmed_khaya_failure": true
+    },
+    "current": {
+      "source": "ambiguous_common_word",
+      "domain": "ambiguous",
+      "confirmed_khaya_failure": false
+    },
+    "plant": {
+      "source": "ambiguous_common_word",
+      "domain": "ambiguous",
+      "confirmed_khaya_failure": false
+    },
+    "mass": {
+      "source": "ambiguous_common_word",
+      "domain": "ambiguous",
+      "confirmed_khaya_failure": false
+    },
+    "mouse": {
+      "source": "ambiguous_common_word",
+      "domain": "ambiguous",
+      "confirmed_khaya_failure": false
+    },
+    "cloud": {
+      "source": "ambiguous_common_word",
+      "domain": "ambiguous",
+      "confirmed_khaya_failure": false
+    },
+    "virus": {
+      "source": "ambiguous_common_word",
+      "domain": "ambiguous",
+      "confirmed_khaya_failure": true
+    },
+    "tissue": {
+      "source": "ambiguous_common_word",
+      "domain": "ambiguous",
+      "confirmed_khaya_failure": false
+    },
+    "root": {
+      "source": "ambiguous_common_word",
+      "domain": "ambiguous",
+      "confirmed_khaya_failure": false
+    },
+    "matrix": {
+      "source": "ambiguous_common_word",
+      "domain": "ambiguous",
+      "confirmed_khaya_failure": false
+    },
+    "vector": {
+      "source": "ambiguous_common_word",
+      "domain": "ambiguous",
+      "confirmed_khaya_failure": false
+    },
+    "wave": {
+      "source": "ambiguous_common_word",
+      "domain": "ambiguous",
+      "confirmed_khaya_failure": false
+    },
+    "charge": {
+      "source": "ambiguous_common_word",
+      "domain": "ambiguous",
+      "confirmed_khaya_failure": false
+    },
+    "field": {
+      "source": "ambiguous_common_word",
+      "domain": "ambiguous",
+      "confirmed_khaya_failure": false
+    },
+    "key": {
+      "source": "ambiguous_common_word",
+      "domain": "ambiguous",
+      "confirmed_khaya_failure": false
+    },
+    "host": {
+      "source": "ambiguous_common_word",
+      "domain": "ambiguous",
+      "confirmed_khaya_failure": false
+    },
+    "cache": {
+      "source": "ambiguous_common_word",
+      "domain": "ambiguous",
+      "confirmed_khaya_failure": false
+    },
+    "bug": {
+      "source": "ambiguous_common_word",
+      "domain": "ambiguous",
+      "confirmed_khaya_failure": false
+    },
+    "memory": {
+      "source": "ambiguous_common_word",
+      "domain": "ambiguous",
+      "confirmed_khaya_failure": false
+    },
+    "network": {
+      "source": "ambiguous_common_word",
+      "domain": "ambiguous",
+      "confirmed_khaya_failure": false
+    },
+    "base": {
+      "source": "ambiguous_common_word",
+      "domain": "ambiguous",
+      "confirmed_khaya_failure": false
+    },
+    "class": {
+      "source": "ambiguous_common_word",
+      "domain": "ambiguous",
+      "confirmed_khaya_failure": false
+    },
+    "function": {
+      "source": "ambiguous_common_word",
+      "domain": "ambiguous",
+      "confirmed_khaya_failure": false
+    },
+    "drive": {
+      "source": "ambiguous_common_word",
+      "domain": "ambiguous",
+      "confirmed_khaya_failure": false
+    },
+    "chip": {
+      "source": "ambiguous_common_word",
+      "domain": "ambiguous",
+      "confirmed_khaya_failure": false
+    },
+    "model": {
+      "source": "ambiguous_common_word",
+      "domain": "ambiguous",
+      "confirmed_khaya_failure": false
+    },
+    "power": {
+      "source": "ambiguous_common_word",
+      "domain": "ambiguous",
+      "confirmed_khaya_failure": false
+    },
+    "volume": {
+      "source": "ambiguous_common_word",
+      "domain": "ambiguous",
+      "confirmed_khaya_failure": false
+    },
+    "node": {
+      "source": "ambiguous_common_word",
+      "domain": "ambiguous",
+      "confirmed_khaya_failure": false
+    },
+    "signal": {
+      "source": "ambiguous_common_word",
+      "domain": "ambiguous",
+      "confirmed_khaya_failure": false
+    },
+    "frame": {
+      "source": "ambiguous_common_word",
+      "domain": "ambiguous",
+      "confirmed_khaya_failure": false
+    },
+    "domain": {
+      "source": "ambiguous_common_word",
+      "domain": "ambiguous",
+      "confirmed_khaya_failure": false
+    },
+    "ribosomes": {
+      "source": "confirmed_khaya_failure_only",
+      "domain": "unknown",
+      "confirmed_khaya_failure": true
+    },
+    "parasite": {
+      "source": "confirmed_khaya_failure_only",
+      "domain": "unknown",
+      "confirmed_khaya_failure": true
+    }
+  }
+}
